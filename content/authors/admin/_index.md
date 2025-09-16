@@ -9,9 +9,6 @@ name_pronunciation: ''
 first_name: Calen
 last_name: Walshe
 
-# Pronouns (optional)
-pronouns: he/him
-
 # Status emoji
 status:
   icon: 🚀
