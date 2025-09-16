@@ -36,22 +36,18 @@ profiles:
   - icon: at-symbol
     url: 'mailto:calen.walshe@meta.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/CalenWalshe
   - icon: brands/github
-    url: https://github.com/calenwalshe
+    url: https://calenwalshe.github.com
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/calenwalshe/
+    url: https://www.linkedin.com/in/calen-walshe-ab708364/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=calenwalshe
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=uZYVTRcAAAAJ&hl=en
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Visual Neuroscience
+  - Cognitive Science
+  - Attention and Eye-Movement Control
+  - Computational Models of Gaze
 
 education:
   - area: B.A. (Hons) in Cognitive Science
@@ -157,3 +153,4 @@ awards:
 Calen Walshe is a lead quantitative researcher at Meta, where he drives insights and optimizes large-scale advertising systems on the Meta Ads team. He leverages his academic background in statistical modeling, machine learning, and visual cognition to bring rigorous, data-driven solutions to complex problems.
 
 Previously, his research focused on computational models of eye movements, visual attention, and learning, combining psychophysics, modeling, and naturalistic tasks to uncover how humans allocate gaze, control fixation durations, and process information during visual search and scene viewing. His work advanced dual-process models of gaze control and revealed mechanisms underlying visual sensitivity and adaptive behavior.
+
