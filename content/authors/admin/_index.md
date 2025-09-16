@@ -54,31 +54,18 @@ interests:
   - AI Ethics
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: B.A. (Hons) in Cognitive Science
+    institution: Simon Fraser University
+    date_end: 2009-01-01
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      B.A. (Hons) in Cognitive Science, Simon Fraser University (2009).
+  - area: Ph.D.
+    institution: University of Edinburgh
+    date_end: 2015-01-01
     summary: |
-      GPA: 4.0/4.0
+      Ph.D., University of Edinburgh (completed 2015).
 
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
 
-      Minored in Mathematics. President of AI Club.
 
 work:
   - position: Quantitative Researcher
