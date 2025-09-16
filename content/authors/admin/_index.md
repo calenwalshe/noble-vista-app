@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Calen Walshe
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Calen
+last_name: Walshe
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,27 +23,27 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: Quantitative Researcher at Meta
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Meta
+    url: https://www.meta.com/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:calen.walshe@meta.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+    url: https://twitter.com/CalenWalshe
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/calenwalshe
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/calenwalshe/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
+    url: https://scholar.google.com/citations?user=calenwalshe
   - icon: academicons/orcid
     url: https://orcid.org/0000-0002-1825-0097
 
@@ -81,22 +81,23 @@ education:
       Minored in Mathematics. President of AI Club.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
+  - position: Quantitative Researcher
+    company_name: Meta
+    company_url: 'https://www.meta.com/'
     company_logo: ''
     date_start: 2020-01-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
+      Building and validating large-scale experimentation frameworks that guide product strategy across the Meta family of apps.
+      Partner with data science and engineering teams to translate statistical insights into measurable impact.
+  - position: Quantitative Research Intern
     company_name: OpenAI
     company_url: 'https://openai.com/'
     company_logo: ''
     date_start: 2019-06-01
     date_end: 2019-12-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Developed Bayesian experimentation tooling to support early reinforcement learning research initiatives.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -166,4 +167,4 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Calen Walshe is a Quantitative Researcher at Meta who builds data-driven experimentation programs to inform product decisions at scale. His work blends econometrics, causal inference, and machine learning to uncover actionable insights that improve the Meta family of apps. Calen is passionate about mentoring analytics teams, speaking at industry meetups, and exploring new ways to turn complex datasets into clear narratives.
