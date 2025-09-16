@@ -34,11 +34,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a quantitative researcher at Meta focused on product experimentation and data-driven decision making. I share insights on causal inference, experimentation platforms, and analytics leadership.
+        Calen Walshe’s work sits at the intersection of visual neuroscience, attention, and eye-movement control. He has developed computational accounts of how gaze and fixation durations are governed during naturalistic scene viewing and category learning—work that grew from his PhD on eye-movement mechanisms and later modeling of dual-process control of fixation time.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of data and technology in shaping product ecosystems.
+        He has also run psychophysics and modeling studies revealing how humans covertly allocate attentional sensitivity across space—showing unexpected losses in visual sensitivity during broad covert searches—and how the visual system detects partially occluded targets in natural backgrounds.
 
-        Please reach out to collaborate 😃
+        Much of this research was conducted as a postdoctoral fellow in Bill Geisler’s lab at UT Austin, focusing on visual and cognitive mechanisms that link learning, attention, and gaze.
     design:
       columns: '1'
   - block: collection

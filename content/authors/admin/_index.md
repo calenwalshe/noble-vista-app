@@ -36,22 +36,18 @@ profiles:
   - icon: at-symbol
     url: 'mailto:calen.walshe@meta.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/CalenWalshe
   - icon: brands/github
-    url: https://github.com/calenwalshe
+    url: https://calenwalshe.github.com
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/calenwalshe/
+    url: https://www.linkedin.com/in/calen-walshe-ab708364/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=calenwalshe
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?user=uZYVTRcAAAAJ&hl=en
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Visual Neuroscience
+  - Cognitive Science
+  - Attention and Eye-Movement Control
+  - Computational Models of Gaze
 
 education:
   - area: B.A. (Hons) in Cognitive Science
@@ -154,4 +150,8 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Calen Walshe is a Quantitative Researcher at Meta who builds data-driven experimentation programs to inform product decisions at scale. His work blends econometrics, causal inference, and machine learning to uncover actionable insights that improve the Meta family of apps. Calen is passionate about mentoring analytics teams, speaking at industry meetups, and exploring new ways to turn complex datasets into clear narratives.
+Calen Walshe’s work sits at the intersection of visual neuroscience, attention, and eye-movement control. He has developed computational accounts of how gaze and fixation durations are governed during naturalistic scene viewing and category learning—work that grew from his PhD on eye-movement mechanisms and later modeling of dual-process control of fixation time.
+
+He has also run psychophysics and modeling studies revealing how humans covertly allocate attentional sensitivity across space—showing unexpected losses in visual sensitivity during broad covert searches—and how the visual system detects partially occluded targets in natural backgrounds.
+
+Much of this research was conducted as a postdoctoral fellow in Bill Geisler’s lab at UT Austin, focusing on visual and cognitive mechanisms that link learning, attention, and gaze.
