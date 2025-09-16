@@ -150,8 +150,7 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Calen Walshe’s work sits at the intersection of visual neuroscience, attention, and eye-movement control. He has developed computational accounts of how gaze and fixation durations are governed during naturalistic scene viewing and category learning—work that grew from his PhD on eye-movement mechanisms and later modeling of dual-process control of fixation time.
+Calen Walshe is a lead quantitative researcher at Meta, where he drives insights and optimizes large-scale advertising systems on the Meta Ads team. He leverages his academic background in statistical modeling, machine learning, and visual cognition to bring rigorous, data-driven solutions to complex problems.
 
-He has also run psychophysics and modeling studies revealing how humans covertly allocate attentional sensitivity across space—showing unexpected losses in visual sensitivity during broad covert searches—and how the visual system detects partially occluded targets in natural backgrounds.
+Previously, his research focused on computational models of eye movements, visual attention, and learning, combining psychophysics, modeling, and naturalistic tasks to uncover how humans allocate gaze, control fixation durations, and process information during visual search and scene viewing. His work advanced dual-process models of gaze control and revealed mechanisms underlying visual sensitivity and adaptive behavior.
 
-Much of this research was conducted as a postdoctoral fellow in Bill Geisler’s lab at UT Austin, focusing on visual and cognitive mechanisms that link learning, attention, and gaze.
