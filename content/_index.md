@@ -45,17 +45,4 @@ sections:
     design:
       date_format: 'January 2006'
       is_education_first: false
-  - block: collection
-    id: projects
-    content:
-      title: Projects
-      filters:
-        folders:
-          - project
-    design:
-      view: article-grid
-      columns: 3
-      show_date: false
-      show_read_time: false
-      show_read_more: false
 ---
