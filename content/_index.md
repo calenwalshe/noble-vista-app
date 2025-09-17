@@ -39,6 +39,7 @@ sections:
     design:
       view: citation
   - block: resume-experience
+    id: experience
     content:
       title: Experience
       username: admin
