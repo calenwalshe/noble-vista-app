@@ -61,15 +61,31 @@ education:
 
 
 work:
-  - position: Quantitative Researcher
+  - position: Staff Quantitative Researcher, Ad Technology
     company_name: Meta
     company_url: 'https://www.meta.com/'
     company_logo: ''
-    date_start: 2020-01-01
+    date_start: 2021-01-01
     date_end: ''
-    summary: |2-
-      Building and validating large-scale experimentation frameworks that guide product strategy across the Meta family of apps.
-      Partner with data science and engineering teams to translate statistical insights into measurable impact.
+    summary: |-
+      - Steered ad-quality measurement using Hive analytics and large-N surveys; influenced >$1B revenue and roadmaps across ranking and creative systems.
+      - Built ad-performance classifiers at Meta scale; improved AUC +3–5 pts and calibration error −20–30%, informing ranking and budget allocation decisions.
+      - Designed causal measurement combining experiments and observational logs; delivered trustworthy lift readouts for launches across key ad surfaces.
+      - Linked survey signals to on-platform behavior with Bayesian hierarchical models; reduced bias 15–25% and improved targeting validity across cohorts.
+      - Authored reusable Hive pipelines and SQL UDFs; cut insight turnaround 30–40% and standardized metrics across Ads teams.
+      - Led 50+ experiments annually; applied variance-reduction techniques to shrink required samples 20–30% while maintaining power and guardrails.
+      - Partnered with PM/Eng as Staff-level bridge; raised decision velocity 25–35% via playbooks, dashboards, and preregistered analysis templates.
+      - Prototyped ad-tech POCs (creative quality, budget pacing); projected ROI +8–12%, enabling investment decisions and phased rollouts.
+      - Instituted experiment quality gating—power analyses, holdout checks, pre-mortems—reducing false launches 20–30% and boosting trust in causal readouts.
+      - Defined UX quality metrics (fatigue, diversity, trust) balancing revenue and experience; enabled ranking changes with consistent 2–4% engagement lift.
+  - position: Data Scientist
+    company_name: C. Light Technologies
+    company_url: 'https://clighttechnologies.com/'
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: 2021-12-31
+    summary: |-
+      - Built classifiers on retinal images and eye-movements to screen neurological disease; achieved AUC 0.85–0.92 and accelerated analyses 40–50%.
   - position: Quantitative Research Intern
     company_name: OpenAI
     company_url: 'https://openai.com/'
