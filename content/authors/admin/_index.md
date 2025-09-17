@@ -31,10 +31,10 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:calen.walshe@meta.com'
+    url: 'mailto:calen.walshe@gmail.com'
     label: E-mail Me
   - icon: brands/github
-    url: https://calenwalshe.github.com
+    url: https://github.com/calenwalshe/
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/calen-walshe-ab708364/
   - icon: academicons/google-scholar
