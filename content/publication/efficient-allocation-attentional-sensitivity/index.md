@@ -21,7 +21,7 @@ summary: >-
   Demonstrates how efficient allocation of attentional sensitivity during visual search produces substantial foveal sensitivity
   reductions in naturalistic large displays.
 tags: []
-featured: false
+featured: true
 links:
   - type: custom
     label: Publisher
