@@ -126,6 +126,54 @@ sections:
           - 0
           - 0rem
           - 0
+  - block: markdown
+    id: selected-gallery
+    content:
+      text: |
+        {{< rawhtml >}}
+        <style>
+          .selected-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.25rem;
+            justify-content: center;
+            margin: 1.5rem 0 0;
+          }
+
+          .selected-gallery a {
+            flex: 1 1 200px;
+            max-width: 240px;
+            display: block;
+            text-decoration: none;
+          }
+
+          .selected-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+            display: block;
+          }
+        </style>
+        <div class="selected-gallery">
+          <a href="/media/current-biology-cover.svg" target="_blank" rel="noopener">
+            <img src="/media/current-biology-cover.svg" alt="Cover of Current Biology featuring an octopus on the ocean floor" loading="lazy">
+          </a>
+          <a href="/media/current-biology-cover.svg" target="_blank" rel="noopener">
+            <img src="/media/current-biology-cover.svg" alt="Cover of Current Biology featuring an octopus on the ocean floor" loading="lazy">
+          </a>
+          <a href="/media/current-biology-cover.svg" target="_blank" rel="noopener">
+            <img src="/media/current-biology-cover.svg" alt="Cover of Current Biology featuring an octopus on the ocean floor" loading="lazy">
+          </a>
+        </div>
+        {{< /rawhtml >}}
+    design:
+      spacing:
+        padding:
+          - 0rem
+          - 0
+          - 0rem
+          - 0
   - block: collection
     id: papers
     content:

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1600" role="img" aria-labelledby="coverTitle coverDesc">
+  <title id="coverTitle">Stylized cover of Current Biology showing an octopus on sand</title>
+  <desc id="coverDesc">Deep blue gradient background with white headline Current Biology above a simplified octopus resting on pale sand.</desc>
+  <defs>
+    <linearGradient id="oceanGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b2655" />
+      <stop offset="60%" stop-color="#1c3e73" />
+      <stop offset="100%" stop-color="#224a7c" />
+    </linearGradient>
+    <linearGradient id="sandGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d8c9a8" />
+      <stop offset="100%" stop-color="#c2a886" />
+    </linearGradient>
+    <linearGradient id="armGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dadce3" />
+      <stop offset="100%" stop-color="#b7bbc4" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="1200" fill="url(#oceanGradient)" />
+  <rect y="1100" width="1200" height="500" fill="url(#sandGradient)" />
+  <g fill="url(#armGradient)" opacity="0.92">
+    <ellipse cx="420" cy="1040" rx="240" ry="120" />
+    <ellipse cx="600" cy="1080" rx="260" ry="130" />
+    <ellipse cx="770" cy="1070" rx="220" ry="120" />
+    <ellipse cx="920" cy="1120" rx="190" ry="105" />
+    <ellipse cx="260" cy="1100" rx="200" ry="110" />
+  </g>
+  <ellipse cx="560" cy="880" rx="220" ry="210" fill="#e1e4ea" />
+  <ellipse cx="520" cy="840" rx="40" ry="48" fill="#343e54" opacity="0.35" />
+  <ellipse cx="640" cy="850" rx="36" ry="46" fill="#343e54" opacity="0.35" />
+  <text x="120" y="230" font-family="'Helvetica Neue', Arial, sans-serif" font-size="140" font-weight="700" fill="#ffffff">Current</text>
+  <text x="120" y="360" font-family="'Helvetica Neue', Arial, sans-serif" font-size="140" font-weight="700" fill="#ffffff">Biology</text>
+  <text x="140" y="460" font-family="'Helvetica Neue', Arial, sans-serif" font-size="52" fill="#ffffff" opacity="0.85">Volume 32</text>
+  <text x="140" y="520" font-family="'Helvetica Neue', Arial, sans-serif" font-size="52" fill="#ffffff" opacity="0.85">Number 1</text>
+  <text x="140" y="580" font-family="'Helvetica Neue', Arial, sans-serif" font-size="52" fill="#ffffff" opacity="0.85">January 10, 2022</text>
+  <text x="780" y="1480" font-family="'Helvetica Neue', Arial, sans-serif" font-size="68" fill="#ffffff" opacity="0.8">Cell Press</text>
+</svg>
