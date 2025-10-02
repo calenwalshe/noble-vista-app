@@ -35,7 +35,12 @@ sections:
         featured_only: true
     design:
       view: citation
-      spacing: '0rem'
+      spacing:
+        padding:
+          - 0rem
+          - 0
+          - 0rem
+          - 0
   - block: markdown
     id: pubs-toggle
     content:
@@ -89,7 +94,12 @@ sections:
         </script>
         {{< /rawhtml >}}
     design:
-      spacing: '0rem'
+      spacing:
+        padding:
+          - 0rem
+          - 0
+          - 0rem
+          - 0
   - block: collection
     id: papers
     content:
@@ -99,7 +109,12 @@ sections:
           - publication
     design:
       view: citation
-      spacing: '0rem'
+      spacing:
+        padding:
+          - 0rem
+          - 0
+          - 0rem
+          - 0
   - block: resume-experience
     id: experience
     content:
