@@ -39,6 +39,51 @@ sections:
         featured_only: true
     design:
       view: citation
+  - block: markdown
+    id: pubs-toggle
+    content:
+      text: |
+        <div style="text-align:center;margin-top:1rem;margin-bottom:1rem;">
+          <button id="toggle-all-pubs" type="button" style="padding:0.5rem 0.75rem;border:1px solid #ccc;border-radius:8px;">
+            See All Publications
+          </button>
+        </div>
+        <style>
+          /* Hide the full list initially to avoid page flash */
+          #papers { display: none; }
+        </style>
+        <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const selected = document.getElementById('selected-papers');
+          const all = document.getElementById('papers');
+          const btn = document.getElementById('toggle-all-pubs');
+          if (!all || !btn) return;
+
+          // Toggle show/hide
+          btn.addEventListener('click', () => {
+            const isHidden = getComputedStyle(all).display === 'none';
+            all.style.display = isHidden ? '' : 'none';
+            btn.textContent = isHidden ? 'Hide Publications' : 'See All Publications';
+          });
+
+          // De-duplicate: hide items in "All" that already appear in "Selected"
+          try {
+            const toPath = (a) => new URL(a.getAttribute('href'), location.origin).pathname;
+            const selectedSet = new Set(
+              Array.from(selected?.querySelectorAll('a[href^="/publication/"]') || []).map(toPath)
+            );
+            Array.from(all.querySelectorAll('a[href^="/publication/"]')).forEach((a) => {
+              const p = toPath(a);
+              if (selectedSet.has(p)) {
+                const item = a.closest('li, article, div');
+                if (item) item.style.display = 'none';
+              }
+            });
+          } catch (e) {
+            console.warn('Publication de-dup skipped:', e);
+          }
+        });
+        </script>
   - block: collection
     id: papers
     content:
