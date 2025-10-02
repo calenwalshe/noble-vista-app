@@ -16,7 +16,7 @@ publication_types: ["paper-conference"]
 publication: "*Proceedings of the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20)*"
 publication_short: "Proceedings of the Thirty-Fourth AAAI Conference on Artificial Intelligence (AAAI-20)"
 summary: ""
-featured: false
+featured: true
 tags: []
 links: []
 projects: []

@@ -9,7 +9,7 @@ publication_types: ["article-journal"]
 publication: "*Computational Brain & Behavior*"
 publication_short: "Computational Brain & Behavior"
 summary: ""
-featured: false
+featured: true
 tags: []
 links: []
 projects: []
