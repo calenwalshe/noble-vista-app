@@ -37,9 +37,6 @@ sections:
         folders:
           - publication
         featured_only: true
-      button:
-        text: View all publications
-        url: /publication/
     design:
       view: citation
   - block: collection
