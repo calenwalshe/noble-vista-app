@@ -61,6 +61,32 @@ sections:
           // Tighten spacing between sections (10% ≈ 6px)
           if (selected) {
             selected.style.marginBottom = '6px';
+
+            const firstLink = selected.querySelector('a[href^="/publication/"]');
+            const firstItem = firstLink?.closest('li, article, div');
+            if (firstItem && !firstItem.querySelector('.selected-pub-figure')) {
+              firstItem.style.display = 'flex';
+              firstItem.style.gap = '12px';
+              firstItem.style.alignItems = 'flex-start';
+
+              const textWrap = document.createElement('div');
+              while (firstItem.firstChild) {
+                textWrap.appendChild(firstItem.firstChild);
+              }
+              firstItem.appendChild(textWrap);
+
+              const fig = document.createElement('figure');
+              fig.className = 'selected-pub-figure';
+              fig.style.margin = '0';
+              fig.style.maxWidth = '320px';
+              fig.style.flex = '0 0 320px';
+              fig.style.borderRadius = '12px';
+              fig.style.overflow = 'hidden';
+              fig.style.boxShadow = '0 6px 18px rgba(0,0,0,0.25)';
+              fig.innerHTML = '<img src="/media/efficient-allocation-figure.jpg" alt="Visual summary of attentional gain allocation patterns" style="display:block;width:100%;height:auto;">';
+
+              firstItem.appendChild(fig);
+            }
           }
 
           // Hide full list initially
