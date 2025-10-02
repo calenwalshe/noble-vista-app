@@ -13,7 +13,7 @@ publication_types: ["article-journal"]
 publication: "*PLOS ONE* 9(1), e83302"
 publication_short: "PLOS ONE"
 summary: ""
-featured: false
+featured: true
 tags: []
 links: []
 projects: []

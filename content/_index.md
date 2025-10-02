@@ -30,9 +30,17 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: collection
-    id: papers
+    id: selected-publications
     content:
-      title: Papers
+      title: Selected Publications
+      filters:
+        featured: true
+    design:
+      view: citation
+  - block: collection
+    id: publications-full
+    content:
+      title: Full Publications List
       filters:
         folders:
           - publication

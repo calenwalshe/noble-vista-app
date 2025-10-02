@@ -9,7 +9,7 @@ publication_types: ["article-journal"]
 publication: "*Journal of Vision* 15(5), 21-21"
 publication_short: "Journal of Vision"
 summary: ""
-featured: false
+featured: true
 tags: []
 links: []
 projects: []

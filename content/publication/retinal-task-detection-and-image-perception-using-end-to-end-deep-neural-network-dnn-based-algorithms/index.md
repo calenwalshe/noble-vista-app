@@ -12,7 +12,7 @@ publication_types: ["article-journal"]
 publication: "*Investigative Ophthalmology & Visual Science* 63(7), 735–F0463-735–F0463"
 publication_short: "Investigative Ophthalmology & Visual Science"
 summary: ""
-featured: false
+featured: true
 tags: []
 links: []
 projects: []
