@@ -44,7 +44,7 @@ sections:
     content:
       text: |
         {{< rawhtml >}}
-        <div style="text-align:center;margin-top:1rem;margin-bottom:1rem;">
+        <div style="text-align:center;margin-top:6px;margin-bottom:6px;">
           <button id="toggle-all-pubs" type="button" style="padding:0.5rem 0.75rem;border:1px solid #ccc;border-radius:8px;">
             See All Publications
           </button>
