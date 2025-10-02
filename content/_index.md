@@ -42,6 +42,55 @@ sections:
           - 0rem
           - 0
   - block: markdown
+    id: selected-gallery
+    content:
+      text: |
+        {{< rawhtml >}}
+        <style>
+          .selected-gallery {
+            display: flex;
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            gap: 1.25rem;
+            justify-content: center;
+            margin: 1.5rem 0 0;
+          }
+
+          .selected-gallery a {
+            flex: 0 0 240px;
+            max-width: 240px;
+            display: block;
+            text-decoration: none;
+          }
+
+          .selected-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+            display: block;
+          }
+        </style>
+        <div class="selected-gallery">
+          <a href="/media/efficient-allocation-figure.jpg" target="_blank" rel="noopener">
+            <img src="/media/efficient-allocation-figure.jpg" alt="Visualization of efficient allocation of attentional gain" loading="lazy">
+          </a>
+          <a href="/media/efficient-allocation-figure.jpg" target="_blank" rel="noopener">
+            <img src="/media/efficient-allocation-figure.jpg" alt="Diagram illustrating resource allocation efficiency" loading="lazy">
+          </a>
+          <a href="/media/efficient-allocation-figure.jpg" target="_blank" rel="noopener">
+            <img src="/media/efficient-allocation-figure.jpg" alt="Graphic overview of attentional resource distribution" loading="lazy">
+          </a>
+        </div>
+        {{< /rawhtml >}}
+    design:
+      spacing:
+        padding:
+          - 0rem
+          - 0
+          - 0rem
+          - 0
+  - block: markdown
     id: pubs-toggle
     content:
       text: |
@@ -118,54 +167,6 @@ sections:
           }
         });
         </script>
-        {{< /rawhtml >}}
-    design:
-      spacing:
-        padding:
-          - 0rem
-          - 0
-          - 0rem
-          - 0
-  - block: markdown
-    id: selected-gallery
-    content:
-      text: |
-        {{< rawhtml >}}
-        <style>
-          .selected-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1.25rem;
-            justify-content: center;
-            margin: 1.5rem 0 0;
-          }
-
-          .selected-gallery a {
-            flex: 1 1 200px;
-            max-width: 240px;
-            display: block;
-            text-decoration: none;
-          }
-
-          .selected-gallery img {
-            width: 100%;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
-            display: block;
-          }
-        </style>
-        <div class="selected-gallery">
-          <a href="/media/efficient-allocation-figure.jpg" target="_blank" rel="noopener">
-            <img src="/media/efficient-allocation-figure.jpg" alt="Visualization of efficient allocation of attentional gain" loading="lazy">
-          </a>
-          <a href="/media/efficient-allocation-figure.jpg" target="_blank" rel="noopener">
-            <img src="/media/efficient-allocation-figure.jpg" alt="Diagram illustrating resource allocation efficiency" loading="lazy">
-          </a>
-          <a href="/media/efficient-allocation-figure.jpg" target="_blank" rel="noopener">
-            <img src="/media/efficient-allocation-figure.jpg" alt="Graphic overview of attentional resource distribution" loading="lazy">
-          </a>
-        </div>
         {{< /rawhtml >}}
     design:
       spacing:
