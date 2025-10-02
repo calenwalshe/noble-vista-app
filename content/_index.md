@@ -56,8 +56,14 @@ sections:
           const btn = document.getElementById('toggle-all-pubs');
           if (!all || !btn) return;
 
+          // Tighten spacing between sections (10% ≈ 6px)
+          if (selected) {
+            selected.style.marginBottom = '6px';
+          }
+
           // Hide full list initially
           all.style.display = 'none';
+          all.style.marginTop = '6px';
 
           // Toggle show/hide
           btn.addEventListener('click', () => {
