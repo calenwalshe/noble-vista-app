@@ -43,21 +43,21 @@ sections:
     id: pubs-toggle
     content:
       text: |
+        {{< rawhtml >}}
         <div style="text-align:center;margin-top:1rem;margin-bottom:1rem;">
           <button id="toggle-all-pubs" type="button" style="padding:0.5rem 0.75rem;border:1px solid #ccc;border-radius:8px;">
             See All Publications
           </button>
         </div>
-        <style>
-          /* Hide the full list initially to avoid page flash */
-          #papers { display: none; }
-        </style>
         <script>
         document.addEventListener('DOMContentLoaded', () => {
           const selected = document.getElementById('selected-papers');
           const all = document.getElementById('papers');
           const btn = document.getElementById('toggle-all-pubs');
           if (!all || !btn) return;
+
+          // Hide full list initially
+          all.style.display = 'none';
 
           // Toggle show/hide
           btn.addEventListener('click', () => {
@@ -84,6 +84,7 @@ sections:
           }
         });
         </script>
+        {{< /rawhtml >}}
   - block: collection
     id: papers
     content:
