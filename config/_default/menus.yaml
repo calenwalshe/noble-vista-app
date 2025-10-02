@@ -13,3 +13,6 @@ main:
   - name: Experience
     url: /#experience
     weight: 20
+  - name: CV
+    url: /calen_cv/
+    weight: 21
