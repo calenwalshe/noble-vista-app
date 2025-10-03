@@ -23,9 +23,7 @@ highlight_name: true
 role: Quantitative Research Leader | AI/ML for Ads Ranking & UX at Meta
 
 # Organizations/Affiliations to display in Biography blox
-organizations:
-  - name: Meta
-    url: https://www.meta.com/
+organizations: []
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
