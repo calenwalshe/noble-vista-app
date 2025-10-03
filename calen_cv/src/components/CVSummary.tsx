@@ -8,13 +8,11 @@ export function CVSummary() {
       </CardHeader>
       <CardContent>
         <p className="leading-relaxed">
-          Staff-level data scientist focused on quantitative UX, product experimentation, and ML for trust and safety.{'
-          '}Over 10 years in industry and academia applying SQL, Python, A/B testing, causal inference, and LLMs to
-          large-scale systems.{'
-          '}At Meta, drove {'>'}$1B impact by embedding with product teams, defining north-star metrics, and building survey +
-          generative-AI pipelines to improve ad quality and user experience.{'
-          '}Operates as a senior IC in a leadership capacity, partnering with leads and influencing teams that drive
-          multi-billion-dollar revenue impact.
+          Calen Walshe leads quantitative research and applied ML at Meta. He architects and ships backend systems for ranking,
+          relevance, and content quality, improving user experience across surfaces.{'
+          '}He pairs causal inference and A/B testing with MLOps to take models from training to real-time serving with clear
+          SLOs.{'
+          '}His background in visual attention guides how he measures and optimizes experience.
         </p>
       </CardContent>
     </Card>
