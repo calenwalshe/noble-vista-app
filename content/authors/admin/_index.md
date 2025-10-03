@@ -38,12 +38,6 @@ profiles:
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=uZYVTRcAAAAJ&hl=en
 
-interests:
-  - Visual Neuroscience
-  - Cognitive Science
-  - Attention and Eye-Movement Control
-  - Computational Models of Gaze
-
 education:
   - area: B.A. (Hons) in Cognitive Science
     institution: Simon Fraser University
