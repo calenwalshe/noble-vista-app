@@ -1,4 +1,4 @@
-import { Mail, Globe, Github, Linkedin, MapPin } from 'lucide-react'
+import { Globe, Github, Linkedin, MapPin } from 'lucide-react'
 import { Card } from './ui/card'
 
 export function CVHeader() {
@@ -11,13 +11,6 @@ export function CVHeader() {
         </h2>
         
         <div className="flex flex-wrap justify-center gap-6 pt-4">
-          <div className="flex items-center gap-2">
-            <Mail className="h-4 w-4" />
-            <a href="mailto:calen.walshe@gmail.com" className="hover:text-primary">
-              calen.walshe@gmail.com
-            </a>
-          </div>
-          
           <div className="flex items-center gap-2">
             <Globe className="h-4 w-4" />
             <a href="https://www.calenwalshe.com" className="hover:text-primary" target="_blank" rel="noopener noreferrer">
