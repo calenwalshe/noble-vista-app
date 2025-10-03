@@ -182,7 +182,5 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Calen Walshe is a lead quantitative researcher at Meta, where he drives insights and optimizes large-scale advertising systems on the Meta Ads team. He leverages his academic background in statistical modeling, machine learning, and visual cognition to bring rigorous, data-driven solutions to complex problems.
-
-Previously, his research focused on computational models of eye movements, visual attention, and learning, combining psychophysics, modeling, and naturalistic tasks to uncover how humans allocate gaze, control fixation durations, and process information during visual search and scene viewing. His work advanced dual-process models of gaze control and revealed mechanisms underlying visual sensitivity and adaptive behavior.
+Calen Walshe leads quantitative research and applied ML at Meta. He architects and ships backend systems for ranking, relevance, and content quality, improving user experience across surfaces. He pairs causal inference and A/B testing with MLOps to take models from training to real-time serving with clear SLOs. His background in visual attention guides how he measures and optimizes experience.
 
