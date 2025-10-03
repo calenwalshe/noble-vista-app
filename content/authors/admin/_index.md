@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Quantitative Researcher at Meta
+role: Quantitative Research Leader | AI/ML for Ads Ranking & UX at Meta
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
