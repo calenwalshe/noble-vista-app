@@ -67,6 +67,38 @@ sections:
           all.style.display = 'none';
           all.style.marginTop = '6px';
 
+          // Replace selected publication links with publisher URLs
+          const publisherLinks = new Map([
+            [
+              '/publication/efficient-allocation-attentional-sensitivity/',
+              'https://www.sciencedirect.com/science/article/pii/S0960982221013658'
+            ],
+            [
+              '/publication/a-computational-dual-process-model-of-fixation-duration-control-in-natural-scene-viewing/',
+              'https://link.springer.com/article/10.1007/s42113-021-00111-4'
+            ],
+            [
+              '/publication/atari-head-atari-human-eye-tracking-and-demonstration-dataset/',
+              'https://aaai.org/ojs/index.php/AAAI/article/view/6161'
+            ]
+          ]);
+
+          if (selected) {
+            const anchors = selected.querySelectorAll('a[href]');
+            anchors.forEach((anchor) => {
+              try {
+                const path = new URL(anchor.href, location.origin).pathname;
+                const publisherUrl = publisherLinks.get(path);
+                if (publisherUrl) {
+                  anchor.href = publisherUrl;
+                  anchor.rel = 'noopener';
+                }
+              } catch (error) {
+                console.warn('Skipping publisher link substitution:', error);
+              }
+            });
+          }
+
           // Toggle show/hide
           btn.addEventListener('click', () => {
             const isHidden = getComputedStyle(all).display === 'none';
