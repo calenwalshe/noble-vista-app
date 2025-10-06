@@ -176,5 +176,5 @@ awards:
       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Calen Walshe leads quantitative research and applied ML at Meta. He architects and ships backend systems for ranking, relevance, and content quality, improving user experience across surfaces. He pairs causal inference and A/B testing with MLOps to take models from training to real-time serving with clear SLOs. His background in visual attention guides how he measures and optimizes experience.
+Calen Walshe is a survey scientist and applied ML researcher who builds end-to-end systems for turning human feedback into production signals. He combines classical survey methodology, causal inference, and NLP to derive insights from open text and implicit response data. At Meta, he leads the design and deployment of scalable pipelines that feed quality metrics and sentiment signals directly into core ranking and recommendation models. He is deeply attuned to measurement reliability, drift detection, and end-to-end observability in real-time serving environments. His technical fluency spans from conceptual survey design to engineering high-performance inference systems, bridging behavioral science and infrastructure.
 
