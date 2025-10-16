@@ -23,5 +23,7 @@ mounts:
     target: layouts
   - source: assets
     target: assets
+  - source: static
+    target: static
   - source: docs/calen_cv
     target: static/calen_cv
