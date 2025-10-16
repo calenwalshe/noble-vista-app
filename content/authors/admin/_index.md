@@ -34,7 +34,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/calenwalshe/
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/calen-walshe-ab708364/
+    url: https://www.linkedin.com/in/calen-walshe/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=uZYVTRcAAAAJ&hl=en
 
