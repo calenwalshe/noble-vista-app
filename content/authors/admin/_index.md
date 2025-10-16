@@ -91,34 +91,6 @@ work:
       - Built reproducible pipelines and simulation frameworks to study cognitive performance and visual attention under uncertainty.
       - Published first-author research in venues such as Current Biology and AAAI, translating findings into perception and decision-making algorithms.
       - Partnered across neuroscience, psychology, and computer science to prototype ML-driven methods and secure multidisciplinary funding.
-  - position: Data Scientist
-    company_name: The Edinburgh Journal Ltd
-    company_url: ''
-    company_logo: ''
-    date_start: 2013-01-01
-    date_end: 2015-01-01
-    summary: |-
-      I predicted tomorrow’s news trends to help readers connect deeply with their city. By building analytics that anticipated demand, my work directly boosted the Journal’s readership.
-  - position: Research Scientist
-    company_name: Mediative
-    company_url: ''
-    company_logo: ''
-    date_start: 2010-01-01
-    date_end: 2011-01-01
-    summary: |-
-      Ran EEG- and eye-tracking studies to map attention and emotion to ad performance and in-store behavior.
-
-      Converted neural signals into predictive models of click-through and purchase intent, shaping campaign and site-design decisions for major retail and tech clients.
-
-      Published industry whitepapers and presented findings at neuromarketing conferences, elevating Mediative’s market profile.
-  - position: Data and Research Science Intern
-    company_name: Natural Sciences and Engineering Research Council of Canada (NSERC)
-    company_url: 'https://nserc-crsng.gc.ca/'
-    company_logo: ''
-    date_start: 2008-01-01
-    date_end: 2008-12-31
-    summary: |-
-      Supported research initiatives in Vancouver, BC, combining data analysis with experimental design to advance scientific discovery.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
